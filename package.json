@@ -1,0 +1,13 @@
+{
+  "name": "devsecops-pipeline-demo",
+  "version": "1.0.0",
+  "description": "Simple project for DevSecOps pipeline demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Running tests...\" && node test/index.test.js"
+  },
+  "author": "Khushboo Rai",
+  "license": "MIT",
+  "devDependencies": {}
+}
