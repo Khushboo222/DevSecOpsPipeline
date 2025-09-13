@@ -11,7 +11,7 @@ pipeline {
         stage('Run JS File') {
             steps {
                 echo 'Running your JS file...'
-                sh 'node index.js'  
+                bat 'node index.js'  
             }
         }
     }
