@@ -11,7 +11,7 @@ pipeline {
         stage('Run JS File') {
             steps {
                 echo 'Running your JS file...'
-             sh '/opt/homebrew/bin/node index.js' 
+             sh '/usr/local/bin/node index.js' 
             }
         }
     }
