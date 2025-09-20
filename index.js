@@ -3,7 +3,8 @@ function add(a, b) {
 }
 
 console.log("Hello from DevSecOps pipeline!");
-console.log("11+ 11 =", add(11, 11));
+console.log("10+ 10 =", add(10, 10));
 
 module.exports = { add };
+
 
